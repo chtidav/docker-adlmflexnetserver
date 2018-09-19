@@ -1,6 +1,5 @@
 FROM centos:centos6
-MAINTAINER hays.clark@gmail.com
-
+MAINTAINER david.2.boens@atos.net
 #########################################
 ##             CONSTANTS               ##
 #########################################
@@ -42,8 +41,7 @@ VOLUME ["/var/flexlm"]
 #########################################
 ##            EXPOSE PORTS             ##
 #########################################
-EXPOSE 2080
-EXPOSE 27000-27009
+EXPOSE 2080 27000-27009
 
 # do not use ROOT user
 USER lmadmin
