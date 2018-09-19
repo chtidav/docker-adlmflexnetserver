@@ -45,7 +45,7 @@ VOLUME ["/var/flexlm"]
 EXPOSE 2080 27000 27001 27002 27003 27004 27005 27006 27007 27008 27009
 
 # do not use ROOT user
-USER lmadmin
+#USER lmadmin
 
 ENTRYPOINT ["/usr/local/bin/entrypoint.sh"]
 # no CMD, use container as if 'lmgrd'
