@@ -18,6 +18,7 @@ ENV PATH="${PATH}:/opt/flexnetserver/"
 ##         RUN INSTALL SCRIPT          ##
 #########################################
 ADD /files /usr/local/bin
+ADD /files/licences /var/flexlm
 
 RUN yum update -y && yum install -y \
     redhat-lsb-core \
