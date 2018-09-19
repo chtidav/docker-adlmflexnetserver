@@ -38,8 +38,6 @@ lmutil lmhostid
 PRINT_LINEBREAK
 echo ""
 
-echo "Copy example licence into /var/flexlm"
-cp licences/example_server.lic /var/flexlm
 
 # forward all command line arguments to lmgrd
 # NOTE: lmgrd -z flag is required to 'Run in foreground.' so that
